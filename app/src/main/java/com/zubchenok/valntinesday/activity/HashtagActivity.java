@@ -36,7 +36,7 @@ public class HashtagActivity extends AppCompatActivity {
     }
 
     private void startNextActivity() {
-        Intent intent = new Intent(this, HashtagActivity.class);
+        Intent intent = new Intent(this, BookActivity.class);
         startActivity(intent);
     }
 }
